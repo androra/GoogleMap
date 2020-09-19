@@ -40,6 +40,12 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         LatLng bhopal = new LatLng(23.2599333, 77.412615);
         LatLng jaipur = new LatLng(26.9124336, 75.7872709);
 
+        //Types of Map
+        //mMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
+        //mMap.setMapType(GoogleMap.MAP_TYPE_HYBRID);
+        //mMap.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
+        //mMap.setMapType(GoogleMap.MAP_TYPE_TERRAIN);
+
         //set Info Window
         Marker melbourne = mMap.addMarker(new MarkerOptions().position(bhopal).title("Bhopal").snippet("Population: 4,137,400"));
         melbourne.showInfoWindow();
